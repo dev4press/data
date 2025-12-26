@@ -1,0 +1,28 @@
+{
+  "name": "dev4press/data",
+  "description": "Dev4Press shared data library used in WordPress plugins developed on Dev4Press.com",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.dev4press.com/",
+  "authors": [
+    {
+      "name": "Milan Petrovic",
+      "email": "support@dev4press.com",
+      "homepage": "https://www.dev4press.com/",
+	  "role": "Developer"
+    }
+  ],
+  "support": {
+    "forum": "https://support.dev4press.com/",
+    "source": "https://github.com/dev4press/data"
+  },
+  "autoload": {
+    "files": [
+      "core.php"
+    ]
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
